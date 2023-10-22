@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>ThanaphonS</title>
+</head>
+
+<body>
+
+    <header  class="hidden">
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>Personal Information</h1>
+            <h3>ประวัติส่วนตัว</h3>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+
+    <section id="about" class="hidden">
+        <div class="header">
+        
+            <a onclick="nclick()" >What's ur name</a>
+        </div>
+
+        <div class="card">
+            <img src="assets/logo.png">
+            <div class="info">
+                <h1 id="nshow">My name is</h1>
+                <p>
+                    ชื่อเล่นชื่อ ต้า หรือ ตาต้า หรือ กีตาร์ หรือ ชีตาห์ หรือ ประจวบ หรือ จวบ
+                </p>
+                <p>
+                    เกิดวันที่ 02 มิถุนายน พ.ศ.2546 อายุ 20ปี
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="hidden">
+        <div class="header">
+            <h1>Information</h1>
+            
+        </div>
+        <div class="feature-cards">
+            <div class="card hidden">
+                <div class="info">
+                    <i class='bx bxs-devices'></i>
+                    <h1>ข้อมูลติดต่อ</h1>
+                    <p>
+                       ที่อยู่ปัจจุบัน 151/14 ถ.เณรแก้ว ซ.6 ต.ท่าระหัด อ.เมือง จ.สุพรรณบุรี 
+                    </p>
+                    <p>
+                        Line: Tatahaha007
+                    </p>
+                    <p>
+                        TEL: 062-523-4030
+                    </p>
+                    <p>
+                        Email: ThanaphonS0602@gmail.com
+                    </p>
+                </div>
+            </div>
+            <div class="card hidden">
+                <div class="info">
+                    <i class='bx bx-code-alt'></i>
+
+                    <h1>ความชอบส่วนตัว
+                    </h1>
+                    <p>ดูหนัง ฟังเพลง อ่านหนังสือ การเขียน ถ่ายภาพ ตัดต่อ</p>
+                    <h3>วิชาที่ชอบ</h3>
+                    <p>ภาษาอังกฤษ</p>
+                    <h3>คติประจำใจ</h3>
+                    <p>What's happened, happened.</p>
+                </div>
+            </div>
+            <div class="card hidden">
+                <div class="info">
+                    <i class='bx bxs-component'></i>
+                    <h1>ความสามารถ</h1>
+                    <p>
+                        Python , JavaScript , Java , C , C# , C++ , HTML , CSS , Excel / Googlesheets , R , SQL
+                    </p>
+                    <p>
+                        ตัดต่อ เล่นดนตรี 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
